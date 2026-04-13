@@ -84,10 +84,10 @@ Base URL: `http://localhost:8000/api`
 {
     "status": "success",
     "user": {
-        "id": 1,
+        "id": 3,
         "name": "Budi Santoso",
         "email": "budi@example.com",
-        "joined_at": "08-04-2026"
+        "joined_at": "13-04-2026"
     }
 }
 ```
