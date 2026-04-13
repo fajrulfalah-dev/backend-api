@@ -41,6 +41,6 @@ class AuthController extends Controller
         return response()->json([
             'status' => 'success',
             'message' => 'Berhasil logout, token telah dihapus.'
-        ]);
+        ], 200);
     }
 }
