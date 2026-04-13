@@ -5,6 +5,7 @@ namespace Tests\Feature;
 use App\Models\User;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Tests\TestCase;
+use PHPUnit\Framework\Attributes\Test;
 
 class AuthTest extends TestCase
 {
@@ -16,7 +17,7 @@ class AuthTest extends TestCase
     // REGISTER TESTS
     // =========================================================
 
-    /** @test */
+    #[Test]
     public function user_dapat_register_dengan_data_valid(): void
     {
         $response = $this->postJson('/api/register', [
